@@ -585,6 +585,7 @@
       "terminology": "Terminologia",
       "courses": "Kurssit",
       "cookbook": "Cookbook",
+      "templates": "Mallipohjat",
       "toolkit": "Toolkit"
     },
     "carousel": {
@@ -825,6 +826,10 @@
         "cookbook": {
           "title": "Cookbook",
           "description": "Koodinpätkiä ja kopioitavia esimerkkikoodeja"
+        },
+        "templates": {
+          "title": "Mallipohjat",
+          "description": "Valmiit projektipohjat Solanalle"
         },
         "resources": {
           "title": "Resurssit",
@@ -2546,6 +2551,123 @@
           "image": "/src/img/solutions/icm/depin-cta.webp"
         }
       ]
+    }
+  },
+  "partners": {
+    "meta": {
+      "title": "Kumppaniresurssit | Rakenna Solanalla",
+      "description": "Kaikki mitä tarvitset rahoitusinfrastruktuurin rakentamiseen Solanalla. Tekniset oppaat, dokumentaatio ja resurssit institutionaalisille kumppaneille."
+    },
+    "hero": {
+      "title": "Rakenna rahoitusinfrastruktuuria Solanalla",
+      "subtitle": "Maailman suorituskykyisin lohkoketju institutionaalitason rahoitussovelluksille. Tokenisaatiosta selvitykseen, Solana tarjoaa tarvitsemasi infrastruktuurin.",
+      "reportEyebrow": "Kumppaniresurssit",
+      "reportDescription": "Hanki pääsy teknisiin oppaisiin, dokumentaatioon ja tukeen Solanalla rakentamiseen.",
+      "emailCta": "Ota yhteyttä",
+      "stats": {
+        "0": {
+          "value": "65 000+",
+          "label": "Transaktiot sekunnissa"
+        },
+        "1": {
+          "value": "400 ms",
+          "label": "Lohkoaika"
+        },
+        "2": {
+          "value": "0,00025 $",
+          "label": "Keskimääräinen transaktiomaksu"
+        }
+      }
+    },
+    "features": {
+      "title": "<light>Miksi rakentaa</light> Solanalla?",
+      "description": "Solana yhdistää nopeuden, kustannustehokkuuden ja luotettavuuden, joita rahoituslaitokset vaativat. Natiivin tuen ansiosta vaatimustenmukaisuusominaisuuksille Token Extensionsin kautta, atomisen selvityksen ja taistelukokemuksen saaneen infrastruktuurin, joka käsittelee miljardeja päivittäisessä volyymissa, Solana on maailman johtavien rahoituslaitosten valitsema alusta."
+    },
+    "solutions": {
+      "0": {
+        "title": "Tokenisaatio",
+        "description": "Tokenisoi mikä tahansa omaisuuserä institutionaalitason vaatimustenmukaisuudella."
+      },
+      "1": {
+        "title": "Vakaat kolikot",
+        "description": "Lanseeraa oma vakaa kolikkosi sisäänrakennetulla vaatimustenmukaisuudella."
+      },
+      "2": {
+        "title": "Institutionaaliset maksut",
+        "description": "Siirrä rahaa maailmanlaajuisesti lähes nollakuluilla."
+      },
+      "3": {
+        "title": "Token Extensions",
+        "description": "Edistyneet compliance- ja ohjelmoitavuusominaisuudet."
+      },
+      "title": "Ratkaisualueet",
+      "description": "Tutustu kattaviin ratkaisuihimme institutionaalisiin käyttötapauksiin."
+    },
+    "guides": {
+      "title": "Tekniset oppaat",
+      "description": "Syvälliset toteutusoppaat yleisiin institutionaalisiin käyttötapauksiin.",
+      "items": {
+        "dvp": {
+          "tag": "Selvitys",
+          "title": "Delivery vs Payment (DvP)",
+          "description": "Toteuta atominen selvitys arvopapereille käyttäen SPL Token 2022 -laajennuksia. Poista vastapuoliriski samanaikaisella omaisuuden ja maksun siirrolla."
+        },
+        "nav-strikes": {
+          "tag": "Rahastojen toiminnot",
+          "title": "NAV-lyönnit rahamarkkinarahastoille",
+          "description": "Useita päivittäisiä NAV-lyöntejä rahastojen merkintöihin ja lunastuksiin atomisella selvityksellä ja institutionaalisella compliance-tasolla."
+        }
+      }
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "description": "Yleisiä kysymyksiä institutionaalisilta kumppaneilta, jotka rakentavat Solanalla.",
+      "learnMore": "Lue lisää",
+      "items": {
+        "tokenization": {
+          "question": "Miten tokenisoin omaisuuseriä Solanalla?",
+          "answer": "Käytä Token-2022:ta (Token Extensions) säännellyille omaisuuserille, joissa on compliance-ominaisuuksia kuten default state -laajennus ja KYC-valvonta. Yksinkertaisille vaihdettaville tokeneille ilman rajoituksia käytä standardia SPL Tokenia. Tyypillinen prosessi on: ota mint käyttöön → lisää metadata → mintaa tokeneita → aseta säilytys."
+        },
+        "custody": {
+          "question": "Mitä säilytysratkaisuja on saatavilla?",
+          "answer": "Tärkeimmät institutionaaliset säilytyspalveluntarjoajat, jotka tukevat Solanaa, ovat: Fireblocks, Anchorage, BitGo, Coinbase, Copper, Crypto Finance ja Gemini. Nämä tarjoajat tarjoavat vakuutusturvan, sääntelyvaatimustenmukaisuuden (SOC2, qualified custodian -status), institutionaaliset SLA:t ja integraation kaupankäynti-/selvitysjärjestelmiin."
+        },
+        "compliance": {
+          "question": "Mitä compliance-ominaisuuksia on saatavilla?",
+          "answer": "Token Extensions tarjoaa Default Account State -ominaisuuden (tilit jäädytetty oletuksena, vaatii eksplisiittisen whitelistauksen KYC/AML:lle), Permanent Delegate -ominaisuuden (sääntelyyn perustuva palautus-/jäädytysmahdollisuus), Transfer Fees -ominaisuuden (automaattinen maksujen keräys) ja Metadata Extension -ominaisuuden (on-chain-tokenitiedot). Lisäksi Token ACL (Allow Control List) mahdollistaa koostettavan salli-/estolistan vaarantamatta käyttökokemusta tai kehittäjien koostettavuutta. Nämä mahdollistavat institutionaalisen tason compliancen ilman mukautettuja älykkäitä sopimuksia."
+        }
+      }
+    },
+    "resources": {
+      "title": "Kehittäjäresurssit",
+      "description": "Olennaiset resurssit Solanalla rakentamiseen.",
+      "items": {
+        "spl": {
+          "title": "Solana-ohjelmadokumentaatio",
+          "description": "Viralliset dokumentit Token-2022:lle ja kaikille Solana-ohjelmaliittymille."
+        },
+        "docs": {
+          "title": "Dokumentaatio",
+          "description": "Kattavat oppaat, opetusohjeet ja API-viitteet."
+        },
+        "token-extensions": {
+          "title": "Token Extensions",
+          "description": "Syväsukellus vaatimustenmukaisuus- ja ohjelmoitavuusominaisuuksiin."
+        },
+        "grants": {
+          "title": "Avustusohjelma",
+          "description": "Rahoitustuki Solanalla rakentamiseen."
+        }
+      }
+    },
+    "cta": {
+      "title": "Valmis rakentamaan?",
+      "description": "Ota yhteyttä Solana Foundationin tiimiin keskustellaksesi projektisi vaatimuksista ja saadaksesi lisäresursseja.",
+      "button": "Ota yhteyttä"
+    },
+    "contact": {
+      "text": "Onko sinulla kysymyksiä?",
+      "button": "Ota yhteyttä"
     }
   },
   "institutional-payments": {
